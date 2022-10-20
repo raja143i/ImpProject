@@ -3,7 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.vtiger3.testcases.copy.copy.CreatingOrgNameWDTest">
+      <class name="com.crm.vtiger3.testcases.copy.copy.OrgNameValidationWDTest">
         <methods>
           <include name="dataBaseconnection"/>
           <include name="dataBaseDisconnected"/>
@@ -11,9 +11,9 @@
           <include name="closeBrowser"/>
           <include name="logintoApp"/>
           <include name="launchBrowser"/>
-          <include name="classcreatingorgnameTestNG"/>
+          <include name="orgvalidation"/>
         </methods>
-      </class> <!-- com.crm.vtiger3.testcases.copy.copy.CreatingOrgNameWDTest -->
+      </class> <!-- com.crm.vtiger3.testcases.copy.copy.OrgNameValidationWDTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

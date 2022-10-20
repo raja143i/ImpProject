@@ -22,6 +22,14 @@ public class OrgInfoPageClass
 	
 	public String Htext()
 	{
-		return Header.getText();
+		 String arr=(String) Header.getText();
+		 String arr1[]=arr.split(" ");
+		 String value=arr1[0];
+		 String value1=arr1[1];
+		 String value2=arr1[2];
+		 String value3=arr1[3];
+		 return value3;
+		 
+		 
 	}
 }
