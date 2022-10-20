@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="firefox(failed)">
+    <parameter name="BROWSER" value="firefox"/>
+    <classes>
+      <class name="com.crm.vtiger3.testcases.copy.copy.CreateConTestNG">
+        <methods>
+          <include name="dataBaseconnection"/>
+          <include name="dataBaseDisconnected"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="logintoApp"/>
+          <include name="creatingConTestNg"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.crm.vtiger3.testcases.copy.copy.CreateConTestNG -->
+      <class name="com.crm.vtiger3.testcases.copy.copy.OrgNameValidationWDTest">
+        <methods>
+          <include name="dataBaseconnection"/>
+          <include name="dataBaseDisconnected"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="logintoApp"/>
+          <include name="launchBrowser"/>
+          <include name="orgvalidation"/>
+        </methods>
+      </class> <!-- com.crm.vtiger3.testcases.copy.copy.OrgNameValidationWDTest -->
+      <class name="com.crm.vtiger3.testcases.copy.copy.CreatingOrgNameWDTest">
+        <methods>
+          <include name="dataBaseconnection"/>
+          <include name="dataBaseDisconnected"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="logintoApp"/>
+          <include name="launchBrowser"/>
+          <include name="classcreatingorgnameTestNG"/>
+        </methods>
+      </class> <!-- com.crm.vtiger3.testcases.copy.copy.CreatingOrgNameWDTest -->
+    </classes>
+  </test> <!-- firefox(failed) -->
+  <test thread-count="2" parallel="classes" name="chrome(failed)">
+    <parameter name="BROWSER" value="chrome"/>
+    <classes>
+      <class name="com.crm.vtiger3.testcases.copy.copy.CreateConTestNG">
+        <methods>
+          <include name="dataBaseconnection"/>
+          <include name="dataBaseDisconnected"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="logintoApp"/>
+          <include name="creatingConTestNg"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.crm.vtiger3.testcases.copy.copy.CreateConTestNG -->
+      <class name="com.crm.vtiger3.testcases.copy.copy.OrgNameValidationWDTest">
+        <methods>
+          <include name="dataBaseconnection"/>
+          <include name="dataBaseDisconnected"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="logintoApp"/>
+          <include name="launchBrowser"/>
+          <include name="orgvalidation"/>
+        </methods>
+      </class> <!-- com.crm.vtiger3.testcases.copy.copy.OrgNameValidationWDTest -->
+      <class name="com.crm.vtiger3.testcases.copy.copy.CreatingOrgNameWDTest">
+        <methods>
+          <include name="dataBaseconnection"/>
+          <include name="dataBaseDisconnected"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="logintoApp"/>
+          <include name="launchBrowser"/>
+          <include name="classcreatingorgnameTestNG"/>
+        </methods>
+      </class> <!-- com.crm.vtiger3.testcases.copy.copy.CreatingOrgNameWDTest -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
